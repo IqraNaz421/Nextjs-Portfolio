@@ -111,8 +111,8 @@
 
 
 
-import Image from 'next/image';
-import React from 'react';
+import Image from 'next/image'
+import React from 'react'
 
 const About = () => {
   return (
@@ -125,10 +125,10 @@ const About = () => {
              <u> About Me </u>
             </h1>
             <p className="mb-4 leading-relaxed text-black">
-              Hello! I'm a dedicated individual who has completed my Intermediate in Medical Science from Sir Syed College. My journey through medical studies has shaped my analytical and problem-solving skills, which I now bring into the field of web development.
+              Hello! I am a dedicated individual who has completed my Intermediate in Medical Science from Sir Syed College My journey through medical studies has shaped my analytical and problem-solving skills which I now bring into the field of web development
             </p>
             <p className="mb-4 leading-relaxed text-black">
-              I’m passionate about learning new technologies and constantly improving my skill set. Aside from my academic background, I love exploring creative solutions in the digital space and enjoy working on projects that challenge me to grow.
+              I am passionate about learning new technologies and constantly improving my skill set Aside from my academic background I love exploring creative solutions in the digital space and enjoy working on projects that challenge me to grow
             </p>
             <div className="flex justify-center md:justify-start">
               <a href="/assests/cv/mycv.pdf" target="_blank" rel="noopener noreferrer">
@@ -144,7 +144,7 @@ const About = () => {
         </div>
       </section>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

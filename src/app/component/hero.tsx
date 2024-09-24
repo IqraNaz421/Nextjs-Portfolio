@@ -1,8 +1,8 @@
 "use client"
 import Image from 'next/image'
-import Link from 'next/link';
+import Link from 'next/link'
 import React from 'react'
-import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect'
 
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
   options={{
     strings: ['web Developer', 'Graphic Designer'],
     autoStart: true,
-    loop: true,
+    loop: true
   }}
 />  
         
@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
 
       <p className="mb-8 leading-relaxed text-black">
-      Hello! I’m a passionate web developer currently enhancing my skills in modern web technologies. I’m dedicated to creating responsive, user-friendly websites using HTML, CSS, JavaScript, and frameworks like Next.js.
+      Hello! I am a passionate web developer currently enhancing my skills in modern web technologies I am dedicated to creating responsive user-friendly websites using HTML, CSS JavaScript and frameworks like Next_js
 
 With a strong foundation in web development</p>
 
